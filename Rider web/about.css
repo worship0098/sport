@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* font-family:cursive ; */
+font-family: Acme;
+scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+ background:black; 
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+.logo span{padding: 10px;
+    color: orangered;
+    font-size: 50px;
+    font-weight: bold;
+  background: linear-gradient(black,teal,black,teal);
+    
+    border-radius: 55px;
+}
+header .logo{
+    color:tomato;
+    font-weight: 90;
+    text-decoration: none;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 8px 17px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+header ul li a:hover{
+    background-color:orangered;
+    color:whitesmoke;   
+}
+.sec{
+   
+    padding: 200px;
+    background: #1c0522;
+
+
+}
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec p{font-size: 1em;
+    /* margin-bottom: 10px; */
+    color: #fff;
+
+}
+
+
+

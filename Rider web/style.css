@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* font-family:cursive ; */
+font-family: Acme;
+scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+ background:black; 
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+.logo span{padding: 10px;
+    color: orangered;
+    font-size: 50px;
+    font-weight: bold;
+  background: linear-gradient(black,teal,black,teal);
+    
+    border-radius: 55px;
+}
+header .logo{
+    color:tomato;
+    font-weight: 90;
+    text-decoration: none;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 8px 17px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+header ul li a:hover{
+    background-color:orangered;
+    color:whitesmoke;   
+}
+
+#page1 video{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 5vw;
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+#ceneter{
+  color: whitesmoke;
+    height:100vh;
+    width: 100%;
+    /* background-color: rgba(255, 85, 0, 0.432); */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 8px sloid black;
+    padding-bottom: 2.5vw;
+
+}
+#left-c h3{ margin-left: 80px;
+    font-family: cursive;
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw; 
+    color: whitesmoke;
+    
+}
+#right-c h1{font-size: 9vw;
+    margin-left: 20px;
+    line-height: 12vw;
+    text-align: right;
+    color: orangered;
+
+}
+#page2{
+     /* background-color: aqua; */ */
+}
+h1,h2,h3{
+    font-family: cursive;
+    color: #fff;
+    text-shadow: 0 5px 10px #000;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+text-align: center;
+font-size: 18px;
+}
+.paraimage{
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding:100px 0px ;
+
+}
+.bgl{background-clip: url(./IMG_20240224_160451.jpg);
+
+}
+.bg2{
+    background-image: url(./wallpapersden.com_riders-republic-hd_wxl.jpg);
+}
+.paracontent{
+    background-color: #030303;
+    padding: 50px 0px;
+
+}
+.paravideo{
+    height: 300px;
+    min-height: 100%;
+    padding: 50px 0px;
+
+}
+.paravideo video{
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -999;
+}
